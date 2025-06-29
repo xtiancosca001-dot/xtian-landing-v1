@@ -195,3 +195,10 @@ button.light {
     color: #f9faf8;
 }
 
+/* footer */
+
+.footer {
+    padding: 24px 0;
+    text-align: center;
+}
+
