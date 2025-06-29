@@ -88,11 +88,22 @@ a#psych-page {
     color: #99b5f1;
 }
 
+a#psych-page:hover {
+    color: #becbeb;
+}
+
 a {
     text-decoration: none; 
     font-size: 18px;
     color: #e5e7eb;
+    transition: 200ms color ease-out;
 }
+
+a:hover {
+    color: #fff;
+}
+
+
 
 button {
     border-radius: 8px;
