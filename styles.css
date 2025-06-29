@@ -146,7 +146,27 @@ h2 {
     color: #1f2937;
 }
 
+/* quotes section */
 .quote {
     background-color: #e5e7eb;
+    padding: 72px 200px;
+    text-align: center;
+}
+
+#msg,
+#author {
+    color: #1f2937;
+}
+
+#msg {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
 }
 
