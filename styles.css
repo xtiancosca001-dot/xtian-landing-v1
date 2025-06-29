@@ -104,6 +104,12 @@ button {
     font-size: 18px;
     font-family: Roboto, sans-serif;
     font-weight: 500;
+    transition: 200ms background-color ease-out;
+}
+
+button:hover {
+    background-color: #2477fc;
+    cursor: pointer;
 }
 
 /* Services */
@@ -193,6 +199,10 @@ h2 {
 button.light {
     border: 2px solid #f9faf8;
     color: #f9faf8;
+}
+
+button.light:hover {
+    background-color: #2864c4;
 }
 
 /* footer */
